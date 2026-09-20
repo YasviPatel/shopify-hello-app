@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "2fc55e82daede91f9df82a86f3637322"
-application_url = "https://shopify.dev/apps/default-app-home"
+application_url = "https://hello-app.duckdns.org"
 embedded = true
 name = "hello-app"
 
@@ -21,8 +21,10 @@ api_version = "2026-10"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+redirect_urls = [
+  "https://hello-app.duckdns.org/auth/callback",
+  "https://hello-app.duckdns.org/auth/shopify/callback"
+]
 
 [build]
-include_config_on_deploy = true
-automatically_update_urls_on_dev = true
+automatically_update_urls_on_dev = false
