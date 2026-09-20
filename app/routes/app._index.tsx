@@ -7,7 +7,7 @@ export default function Index() {
         </s-paragraph>
       </s-section>
 
-      <s-section slot="aside" heading="App Status">
+      <s-section slot="aside" heading="Lorem Text for the example">
         <s-paragraph>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui eos esse sint molestiae, dicta placeat, vitae reiciendis excepturi nemo repellendus est. Ad quasi voluptates quo, corrupti distinctio sequi perspiciatis.
         </s-paragraph>
